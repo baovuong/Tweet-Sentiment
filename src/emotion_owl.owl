@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/iteme!!/ontologies/2014/1/untitled-ontology-10#"
+     xml:base="http://www.semanticweb.org/iteme!!/ontologies/2014/1/untitled-ontology-10"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/Anger -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/Anger"/>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/Failure -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/Failure">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/#Sad"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/Love -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/Love"/>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/Success -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/Success">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/#Happy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/affection -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/affection">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/Love"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/annoy -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/annoy">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/Anger"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/bitter -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/bitter">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/Anger"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/crush -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/crush">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/Love"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/demise -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/demise">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/#Sad"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/devotion -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/devotion">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/Love"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/offend -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/offend">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/Anger"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/passion -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/passion">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/Love"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/peace -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/peace">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/#Happy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/pleasure -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/pleasure">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/#Happy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/satisfaction -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/satisfaction">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/#Happy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/unsuccessful -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/unsuccessful">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/#Sad"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/wrath -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/wrath">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/Anger"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/#Happy -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/#Happy"/>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/#Sad -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/#Sad"/>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/#heartbroken -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/#heartbroken">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/#Sad"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+	
+	
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

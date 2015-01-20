@@ -1,0 +1,635 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+    <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+    <!ENTITY wn20instances 'http://www.w3.org/2006/03/wn/wn20/instances/'>
+    <!ENTITY wn20schema 'http://www.w3.org/2006/03/wn/wn20/schema/'>
+]>
+
+<rdf:RDF
+    xmlns:rdf="&rdf;"
+    xmlns:rdfs="&rdfs;"
+    xmlns:wn20instances="&wn20instances;"
+    xmlns:wn20schema="&wn20schema;"
+    xml:lang="en-US;"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"	
+>
+
+    
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/abortive -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/abortive">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/unsuccessful"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/acrid -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/acrid">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/bitter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/acrimonious -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/acrimonious">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/bitter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/affection -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/affection">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/affection"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/devotion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/anger -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/anger">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/Anger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/angry -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/angry">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/Anger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/annoy -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/annoy">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/annoy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/assasination -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/assasination">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/demise"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/attraction -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/attraction">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/crush"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/bitter -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/bitter">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/bitter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/bother -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/bother">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/annoy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/commitment -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/commitment">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/passion"/>
+    </owl:NamedIndividual>
+    
+    
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/crush -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/crush">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/crush"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/death -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/death">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/demise"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/dedication -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/dedication">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/passion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/demise -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/demise">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/demise"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/devotion -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/devotion">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/devotion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/dismiss -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/dismiss">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/offend"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/disobey -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/disobey">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/offend"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/displeasure -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/displeasure">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/wrath"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/dolefulness -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/dolefulness">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/#heartbroken"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/embittered -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/embittered">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/bitter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/enthusiasm -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/enthusiasm">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/passion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/exasperate -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/exasperate">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/annoy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/expiration -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/expiration">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/demise"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/fail -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/fail">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/Failure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/failed -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/failed">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/Failure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/fails -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/fails">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/Failure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/failthful -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/failthful">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/affection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/failure -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/failure">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/Failure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/faithfulness -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/faithfulness">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/devotion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/favor -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/favor">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/Success"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/fondness -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/fondness">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/affection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/freedom -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/freedom">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/peace"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/fruitless -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/fruitless">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/unsuccessful"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/fury -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/fury">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/wrath"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/grief -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/grief">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/#heartbroken"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/happiness -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/happiness">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/#Happy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/happy -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/happy">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/#Happy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/hard -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/hard">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/bitter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/harmony -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/harmony">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/peace"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/heartbreak -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/heartbreak">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/#heartbroken"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/heartbroken -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/heartbroken">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/#heartbroken"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/holiness -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/holiness">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/devotion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/hurray -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/hurray">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/pleasure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/infatuation -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/infatuation">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/crush"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/itch -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/itch">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/annoy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/joy -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/joy">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/pleasure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/kill -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/kill">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/demise"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/lacking -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/lacking">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/unsuccessful"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/love -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/love">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/Love"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/lovely -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/lovely">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/Love"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/loyal -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/loyal">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/affection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/no-win -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/no-win">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/unsuccessful"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/nosuccess -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/nosuccess">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/Failure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/offend -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/offend">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/offend"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/offense -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/offense">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/offend"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/outrage -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/outrage">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/offend"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/passion -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/passion">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/passion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/pleasure -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/pleasure">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/pleasure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/quench -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/quench">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/satisfaction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/quiet -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/quiet">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/peace"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/rage -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/rage">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/wrath"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/sad -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/sad">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/#Sad"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/sadness -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/sadness">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/#Sad"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/satisfaction -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/satisfaction">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/satisfaction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/satisfy -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/satisfy">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/satisfaction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/self-satisfaction -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/self-satisfaction">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/satisfaction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/succeeding -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/succeeding">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/Success"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/tenderness -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/tenderness">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/affection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/tranquillity -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/tranquillity">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/peace"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/unsuccessful -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/unsuccessful">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/unsuccessful"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/vexation -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/vexation">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/wrath"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/win -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/win">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/Success"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/worship -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/worship">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/devotion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/wrath -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/wrath">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/wrath"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/03/wn/wn20/schema/zeal -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/03/wn/wn20/schema/zeal">
+        <rdf:type rdf:resource="http://www.w3.org/2006/03/wn/wn20/schema/passion"/>
+    </owl:NamedIndividual>
+	
+</rdf:RDF>
